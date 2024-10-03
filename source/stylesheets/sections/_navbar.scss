@@ -1,0 +1,33 @@
+#navbar {
+  position: fixed;
+  top: 1em;
+  font-size: small;
+  width: 100%;
+  z-index: 1;
+
+  div {
+    padding: .25em .5em;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+  }
+
+  a {
+    padding: .25em 1em;
+  }
+}
+
+#fix-left i {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    padding: 0 3em;
+  }
+}
+
+@media (min-width: 576px) {
+  #navbar {
+    padding: 0 1em;
+  }
+}

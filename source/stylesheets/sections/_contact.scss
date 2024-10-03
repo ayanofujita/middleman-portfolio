@@ -1,0 +1,18 @@
+#contact {
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+
+  p {
+    margin-bottom: 2.25rem;
+  }
+
+  a {
+    font-size: small;
+  }
+}
+
+#scroll-to-top {
+  inline-size: 3em;
+  line-height: 3em;
+}
