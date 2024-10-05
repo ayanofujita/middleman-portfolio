@@ -1,34 +1,58 @@
-<section id="projects"></section>
+<section id="projects">
+  <h2>Featured Projects</h2>
+  <% data.projects.each_with_index do |project, index| %>
+    <div id="project<%= index %>" class="project row my-5">
+      <%= image_tag project.image, alt: "Project Stroller City image", class: "col-12 col-md-8 mb-3" %>
 
-<div class="row my-5">
-  <div class="col-12">
-    <div class="container">
-      <div id="projects">
-        <h2> Projects</h2>
-        <div class="cards">
-          <% data.projects.each do |project| %>
-            <div class="card-product">
-              <%= image_tag project.image, alt: "project image" %>
-              <div class="card-product-infos w-100">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h2><%= project.name %></h2>
-                  <div class="card-links">
-                    <% link_to project.github, class: 'external-link', target: '_blank' do %>
-                      <i class="fa-brands fa-github"></i>
-                    <% end %>
-                    <% if project.online?  %>
-                      <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                        <i class="fas fa-external-link-alt"></i>
+      <div class="project-description col-12 col-md-4">
+        <h4 class="flex-grow-1 mb-0"><%= project.name %></h4>
+        <p><%= project.role %></p>
+        <p><%= project.description %></p>
+        <p class="mb-1"><%= project.tech %></p>
+        <div class="d-flex">
+          <a href="<%= project.github %>" target="blank" class="me-2">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#" target="blank">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</section>
+
+<!--
+  <div class="row my-5">
+    <div class="col-12">
+      <div class="container">
+        <div id="projects">
+          <h2> Projects</h2>
+          <div class="cards">
+            <% data.projects.each do |project| %>
+              <div class="card-product">
+                <%= image_tag project.image, alt: "project image" %>
+                <div class="card-product-infos w-100">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h2><%= project.name %></h2>
+                    <div class="card-links">
+                      <% link_to project.github, class: 'external-link', target: '_blank' do %>
+                        <i class="fa-brands fa-github"></i>
                       <% end %>
-                    <% end %>
+                      <% if project.online?  %>
+                        <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                          <i class="fas fa-external-link-alt"></i>
+                        <% end %>
+                      <% end %>
+                    </div>
                   </div>
+                  <p><%= project.description %></p>
                 </div>
-                <p><%= project.description %></p>
               </div>
-            </div>
-          <% end %>
+            <% end %>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+-->

@@ -1,0 +1,19 @@
+.project {
+  p {
+    font-size: .85em
+  }
+
+  img {
+    height: fit-content;
+  }
+
+  a {
+    font-size: large;
+    color: rgb(100, 100, 100);
+  }
+
+  p:last-of-type {
+    color: rgb(100, 100, 100);
+    font-size: .8rem;
+  }
+}

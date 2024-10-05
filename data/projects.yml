@@ -1,8 +1,10 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Stroller City
+  description: A mobile-first web application designed for new parents to navigate transit routes with ease, focusing on stroller-friendly exits and entrances equipped with elevators.
+  image: projects/project1_sample.png
   url: https://www.google.com
   github: https://www.github.com
+  role: Lead Developer
+  tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • Google Maps APIs • NAVITIME API • GitHub • Heroku • Figma
   online: true
 
 - name: Movie Watchlist
@@ -18,17 +20,3 @@
   url: https://www.google.com
   github: https://www.github.com
   online: true
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
