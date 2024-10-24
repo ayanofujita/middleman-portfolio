@@ -11,3 +11,9 @@ a {
 .bg-black {
   background-color: black;
 }
+
+@media (max-width: 576px) {
+  .main-container {
+    width: 100%;
+  }
+}
