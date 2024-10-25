@@ -1,15 +1,15 @@
 - name: Stroller City
   description: A mobile-first web application designed for new parents to navigate transit routes with ease, focusing on stroller-friendly exits and entrances equipped with elevators.
   image: projects/project1_sample.png
-  url: https://www.google.com
-  github: https://www.github.com
+  url: strollercity.org
+  github: https://github.com/PuvaSan/Stroller_City
   role: Lead Developer
   tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • Google Maps APIs • NAVITIME API • GitHub • Heroku • Figma
   online: true
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Movie Watchlist v2
+  description: An enhanced platform that allows you to create and manage personalized movie watchlists. You can save, leave reviews, and discover other users' movie collections. This version, built upon the original project from Le Wagon bootcamp, introduces a fully responsive design with improved features and user interaction.
+  image: projects/project2_sample.png
   url: https://www.google.com
   github: https://www.github.com
   online: true

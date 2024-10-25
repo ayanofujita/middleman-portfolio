@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     images50.forEach((img) => {
-      const moveX = (e.clientX - windowCenterX) / 70;
-      const moveY = (e.clientY - windowCenterY) / 70;
+      const moveX = (e.clientX - windowCenterX) / 100;
+      const moveY = (e.clientY - windowCenterY) / 100;
       img.style.transform = `translate(${moveX}px, ${moveY}px)`;
     })
   });
