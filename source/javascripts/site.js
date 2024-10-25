@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('mousemove', (e) => {
     const images100 = document.querySelectorAll('#banner img.opacity-100')
     const images75 = document.querySelectorAll('#banner img.opacity-75')
-    const images25 = document.querySelectorAll('#banner img.opacity-25')
+    const images50 = document.querySelectorAll('#banner img.opacity-50')
 
     const windowCenterX = window.innerWidth / 2;
     const windowCenterY = window.innerHeight / 2;
@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     images75.forEach((img) => {
-      const moveX = (e.clientX - windowCenterX) / 25;
-      const moveY = (e.clientY - windowCenterY) / 25;
+      const moveX = (e.clientX - windowCenterX) / 50;
+      const moveY = (e.clientY - windowCenterY) / 50;
       img.style.transform = `translate(${moveX}px, ${moveY}px)`;
     })
 
-    images25.forEach((img) => {
+    images50.forEach((img) => {
       const moveX = (e.clientX - windowCenterX) / 70;
       const moveY = (e.clientY - windowCenterY) / 70;
       img.style.transform = `translate(${moveX}px, ${moveY}px)`;
