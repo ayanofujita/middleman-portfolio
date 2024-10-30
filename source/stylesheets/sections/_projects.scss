@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  #projects {
+    img:first-child {
+      display: block !important;
+    }
+
+    img:last-child {
+      display: none !important;
+    }
+  }
+}

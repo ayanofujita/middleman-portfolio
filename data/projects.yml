@@ -6,6 +6,7 @@
   role: Lead Developer
   tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • Google Maps APIs • NAVITIME API • GitHub • Heroku • Figma
   online: true
+  color: '#FA6D30'
 
 - name: Movie Watchlist v2
   description: An enhanced platform that allows you to create and manage personalized movie watchlists. You can save, leave reviews, and discover other users' movie collections. This version, built upon the original project from Le Wagon bootcamp, introduces a fully responsive design with improved features and user interaction.
@@ -13,6 +14,7 @@
   url: https://www.google.com
   github: https://www.github.com
   online: true
+  color: '#E52B66'
 
 - name: Airbnb
   description: Decent description of the app
