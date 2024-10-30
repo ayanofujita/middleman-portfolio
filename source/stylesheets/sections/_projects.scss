@@ -1,4 +1,10 @@
-@media (max-width: 576px) {
+#projects {
+  > div {
+    padding: 5em 0;
+  }
+}
+
+@media (max-width: 768px) {
   #projects {
     img:first-child {
       display: block !important;
