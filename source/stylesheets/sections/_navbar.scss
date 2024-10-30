@@ -22,17 +22,18 @@
 
 @media (min-width: 768px) {
   #navbar {
-    padding: 0 3em;
+    padding: 0 5em;
   }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   #navbar {
     padding: 0 1em;
     font-size: small;
+
+    a {
+      padding: .25em .5em !important;
+    }
   }
 
-  #fix-left a {
-    padding: .3 rem;
-  }
 }

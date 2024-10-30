@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   });
 
-  const skillButton = document.getElementById('skills-btn');
-  skillButton.addEventListener('click', () => {
-    const logos = document.querySelectorAll('#banner img');
-    logos.forEach((logo) => {
-      logo.classList.toggle('d-none');
-    })
-    const logoContainer = document.querySelector('#banner .img-container');
-    logoContainer.classList.toggle('d-none');
-  });
+  // const skillButton = document.getElementById('skills-btn');
+  // skillButton.addEventListener('click', () => {
+  //   const logos = document.querySelectorAll('#banner img');
+  //   logos.forEach((logo) => {
+  //     logo.classList.toggle('d-none');
+  //   })
+  //   const logoContainer = document.querySelector('#banner .img-container');
+  //   logoContainer.classList.toggle('d-none');
+  // });
 });
