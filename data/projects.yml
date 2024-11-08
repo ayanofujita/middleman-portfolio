@@ -11,8 +11,8 @@
 - name: Movie Watchlist v2
   description: An enhanced platform that allows you to create and manage personalized movie watchlists. You can save, leave reviews, and discover other users' movie collections. This version, built upon the original project from Le Wagon bootcamp, introduces a fully responsive design with improved features and user interaction.
   image: projects/project2_sample.png
-  url: https://www.google.com
-  github: https://www.github.com
+  url: https://fujiflicks-e1c8637b52fa.herokuapp.com/
+  github: https://github.com/ayanofujita/rails-watch-list-v2
   online: true
   color: '#E52B66'
 
