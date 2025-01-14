@@ -8,10 +8,10 @@
   online: true
   color: '#FA6D30'
 
-- name: Fujiflicks
-  description: Fujiflicks is a responsive movie watchlist app that allows users to create, edit, and delete their own watchlists. Users can also save watchlists created by others, leave reviews, and share their movie preferences.
+- name: Watchlist v2
+  description: A user-friendly app that allows users to create, manage, and share personalized movie lists. Users can save and leave reviews for others' lists. The app is fully responsive, offering a smooth experience across all devices.
   image: projects/project2_sample.png
-  url: https://fujiflicks-e1c8637b52fa.herokuapp.com/
+  url: https://watch-list-v2-08a859a1db81.herokuapp.com/
   github: https://github.com/ayanofujita/rails-watch-list-v2
   role: Solo Developer
   tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • OMDB API • GitHub • Heroku • Cloudinary • Figma
