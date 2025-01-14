@@ -9,7 +9,7 @@
   color: '#FA6D30'
 
 - name: Watchlist v2
-  description: A user-friendly app that allows users to create, manage, and share personalized movie lists. Users can save and leave reviews for others' lists. The app is fully responsive, offering a smooth experience across all devices.
+  description: A user-friendly app that allows users to create, manage, and share personalized movie lists. Users can also save and leave reviews for others' lists. The app is fully responsive, offering a smooth experience across all devices.
   image: projects/project2_sample.png
   url: https://watch-list-v2-08a859a1db81.herokuapp.com/
   github: https://github.com/ayanofujita/rails-watch-list-v2

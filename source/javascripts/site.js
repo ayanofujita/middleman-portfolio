@@ -1,22 +1,27 @@
 // This is where it all goes :)
 document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('mousemove', (e) => {
-    const images100 = document.querySelectorAll('#banner img.opacity-100')
+    let images100 = document.querySelectorAll('#banner img.opacity-100:not(:first-child)')
     const images75 = document.querySelectorAll('#banner img.opacity-75')
     const images50 = document.querySelectorAll('#banner img.opacity-50')
 
     const windowCenterX = window.innerWidth / 2;
     const windowCenterY = window.innerHeight / 2;
 
+    let aws = document.querySelector('#banner img.opacity-100:first-child')
+    const moveX = (e.clientX - windowCenterX) / 80;
+    const moveY = (e.clientY - windowCenterY) / 80;
+    aws.style.transform = `translate(${moveX}px, ${moveY}px)`;
+
     images100.forEach((img) => {
-      const moveX = (e.clientX - windowCenterX) / 10;
-      const moveY = (e.clientY - windowCenterY) / 10;
+      const moveX = (e.clientX - windowCenterX) / 5;
+      const moveY = (e.clientY - windowCenterY) / 5;
       img.style.transform = `translate(${moveX}px, ${moveY}px)`;
     })
 
     images75.forEach((img) => {
-      const moveX = (e.clientX - windowCenterX) / 50;
-      const moveY = (e.clientY - windowCenterY) / 50;
+      const moveX = (e.clientX - windowCenterX) / 30;
+      const moveY = (e.clientY - windowCenterY) / 30;
       img.style.transform = `translate(${moveX}px, ${moveY}px)`;
     })
 
