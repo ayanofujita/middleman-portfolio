@@ -1,3 +1,42 @@
 <section id="about">
+  <div class="inner-about w-100 h-100 d-flex flex-column justify-content-center">
+    <h3 class="text-center mb-5">About Me in Bento</h3>
 
+    <div class="bento w-100 text-center">
+      <div class="top-layer row w-100 mx-0">
+        <div class="col-md-8 row mx-0 p-0">
+          <div class="bento-div-1 col-md-12 col-lg-8" style="max-height: 400px; aspect-ratio: 1; background-image: url(<%=image_path('about/incethink.jpg')%>)"></div>
+          <div class="bento-div-2 col-md-12 col-lg-4 py-3 text-start" style="background: linear-gradient(to bottom right, rgba(255, 177, 117, 0.3), rgba(255, 177, 117, 0.6))">
+            <i class="fa-regular fa-user" style="font-size: 1.5em"></i>
+            <h5 class="mb-0"><strong>藤田　綾乃</strong></h5>
+            <h6 class="text-muted">Fujita Ayano</h6>
+            <p style="font-size: .8em; color:rgb(56, 56, 56);">
+              I enjoy contributing to projects in ways that feel useful to others and find fulfillment in collaborating with others. I'm also motivated by a healthy sense of competitiveness, always striving to improve and make a positive impact in everything I do.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 px-0">
+          <div class="bento-div-3 h-50" style="min-height: 90px; background-image: url(<%=image_path('about/volunteer.jpg')%>)"></div>
+          <div class="bento-div-4 h-50 d-flex justify-content-between p-3 position-relative" style="min-height: fit-content; background: linear-gradient(to bottom right, rgba(173, 216, 230, 0.3), rgba(173, 216, 230, 0.5))">
+            <p class="text-start mb-5" style="max-width: 110px; font-size: .8em; color:rgb(56, 56, 56);">Have currently been into:</p>
+            <%= image_tag "about/mountains.png", style: "height: 80px; bottom: 20%; right: 30%;", class: "position-absolute" %>
+            <%= image_tag "about/sudoku.png", style: "height: 80px;", class: "align-self-start" %>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-layer row w-100 mx-0">
+        <div class="bento-div-5 col-lg-7 d-flex justify-content-start" style="height: fit-content;">
+          <%= image_tag "about/UP_logo.png", style: "height: 80px;", class: "me-3" %>
+          <%= image_tag "about/le_wagon.png", style: "height: 80px;"%>
+        </div>
+        <div class="bento-div-6 col-lg-5 d-flex justify-content-between align-items-center">
+          <div class="text-start">
+            <h6 class="m-0"><span style="font-size: 1.5em">📍</span>Setagaya-ku, Tokyo</h6>
+            <p class="text-muted ms-2 mb-0">I've been in Japan for 3 years.</p>
+          </div>
+          <div style="border-radius: 16px; background-image: url(<%=image_path('about/tokyo_tower.jpg')%>); width: 80px; height: 80px; background-position: top; background-size: cover;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

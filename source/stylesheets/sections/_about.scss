@@ -2,3 +2,15 @@
   min-height: 100vh;
   height: 100vh;
 }
+
+[class^="bento-div-"]{
+  border: 12px solid white;;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bento-div-1, .bento-div-3 {
+  background-size: cover;
+  background-position: center;
+}
