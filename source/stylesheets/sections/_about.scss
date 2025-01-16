@@ -1,6 +1,5 @@
 #about {
   min-height: 100vh;
-  height: 100vh;
 }
 
 [class^="bento-div-"]{
@@ -12,7 +11,13 @@
               inset 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-.bento-div-1, .bento-div-3 {
+.bento-div-1, .bento-div-3, .bento-div-5 > div:first-child {
   background-size: cover;
   background-position: center;
+}
+
+.bento-div-5 > div:last-child {
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
 }
