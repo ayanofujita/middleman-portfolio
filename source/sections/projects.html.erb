@@ -1,7 +1,8 @@
 <section id="projects">
+  <h3 class="text-center">Featured Projects</h3>
   <% data.projects.each_with_index do |project, index| %>
     <div id="project<%= index %>" class="project row align-items-center justify-content-center">
-      <%= image_tag project.image, alt: "Project Stroller City image", class: "col-12 col-md-8 mb-3 #{'d-none' if index.odd?}" %>
+      <%= image_tag project.image, alt: "#{project.name} image", class: "col-12 col-md-8 mb-3 #{'d-none' if index.odd?}" %>
 
       <div class="project-description col-12 col-md-4 <%= 'text-end' if index.odd? %>">
         <p class="mb-2" style="color: <%= project.color %>;"><strong>featured project 0<%= index + 1 %>/03 </strong></p>
@@ -19,7 +20,7 @@
         </div>
       </div>
 
-      <%= image_tag project.image, alt: "Project Stroller City image", class: "col-12 col-md-8 mb-3 #{'d-none' if index.even?}" %>
+      <%= image_tag project.image, alt: "#{project.name} image", class: "col-12 col-md-8 mb-3 #{'d-none' if index.even?}" %>
     </div>
   <% end %>
 </section>

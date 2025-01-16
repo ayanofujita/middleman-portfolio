@@ -1,13 +1,3 @@
-- name: Stroller City
-  description: A mobile-first web application designed for new parents to navigate transit routes with ease, focusing on stroller-friendly exits and entrances equipped with elevators.
-  image: projects/project1_sample.png
-  url: strollercity.org
-  github: https://github.com/PuvaSan/Stroller_City
-  role: Lead Developer
-  tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • Google Maps APIs • NAVITIME API • GitHub • Heroku • Cloudinary • Figma
-  online: true
-  color: '#FA6D30'
-
 - name: Watchlist v2
   description: A user-friendly app that allows users to create, manage, and share personalized movie lists. Users can also save and leave reviews for others' lists. The app is fully responsive, offering a smooth experience across all devices.
   image: projects/project2_sample.png
@@ -17,6 +7,16 @@
   tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • OMDB API • GitHub • Heroku • Cloudinary • Figma
   online: true
   color: '#E52B66'
+
+- name: Stroller City
+  description: A mobile-first web application designed for new parents to navigate transit routes with ease, focusing on stroller-friendly exits and entrances equipped with elevators.
+  image: projects/project1_sample.png
+  url: strollercity.org
+  github: https://github.com/PuvaSan/Stroller_City
+  role: Lead Developer
+  tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • Google Maps APIs • NAVITIME API • GitHub • Heroku • Cloudinary • Figma
+  online: true
+  color: '#FA6D30'
 
 # - name: Airbnb
 #   description: Decent description of the app
