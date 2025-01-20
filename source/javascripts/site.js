@@ -41,4 +41,24 @@ document.addEventListener('DOMContentLoaded', () => {
   //   const logoContainer = document.querySelector('.logo-container .img-container');
   //   logoContainer.classList.toggle('d-none');
   // });
+
+  // GSAP Animations!
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.to("#scroll-text", {
+    scrollTrigger: {
+      trigger: "#skills",
+      scrub: true
+    },
+    duration: 0.1, opacity: 0})
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#skills",
+      start: "center center",
+      scrub: true,
+      pin: "#skills",
+      markers: true
+    }
+  })
+
+  tl.from(".card", {duration: 1, opacity: 0, y: 300, stagger: 1})
 });
