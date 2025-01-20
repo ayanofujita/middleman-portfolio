@@ -55,8 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       trigger: "#skills",
       start: "center center",
       scrub: true,
-      pin: "#skills",
-      markers: true
+      pin: "#skills"
     }
   })
 
