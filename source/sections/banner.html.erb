@@ -1,27 +1,16 @@
 <section id="banner">
-  <div class="position-relative w-100 h-100 d-flex flex-column justify-content-center">
-    <div id="banner-text">
-      <h1>Ayano Fujita</h1>
-      <p class="opacity-75">As a <strong>Web Developer</strong> and part-time <strong>Teaching Assistant</strong> at Le Wagon Tokyo, I'm passionate about continuous learning and helping others grow. I’m always looking for new opportunities to expand my skills and make an impact through code.
+  <div class="banner-container w-100 h-100 row align-items-center">
+    <div id="banner-text" class="col-8">
+      <p>Hello there! I'm</p>
+      <h1 class="gradient-text">Ayano Fujita</h1>
+      <p class="opacity-75">A <strong>Fullstack Web Developer</strong> and part-time Teaching Assistant at <strong>Le Wagon Tokyo</strong>. Always learning and looking for opportunities to expand my skills and make an impact through code.
       </p>
-      <!-- button id="skills-btn" class="btn btn-outline-dark rounded-pill py-2 px-3 me-4">Click me</button -->
-      <!-- a href="mailto:ayanofujita22@gmail.com" class="border-500 text-white py-2 px-3">Let's Talk -></!-->
+      <!-- button class="btn btn-outline-dark rounded-pill py-2 px-3 me-4">Click me</button -->
+      <a href="mailto:ayanofujita22@gmail.com" class="border bg-black text-white rounded-pill py-2 px-3 pb-4">Let's Talk -></a>
     </div>
-    <div class="position-absolute w-100 h-100 d-flex flex-wrap logo-container">
-      <%= image_tag "logos/AWS-Certified-Developer-Associate.png", alt: "AWS badge", style: "top: 20%; left: 30%; z-index: 2; height: 100px; width: 100px;", class: "opacity-100" %>
-
-      <%= image_tag "logos/rails_logo.png", alt: "rails logo", style: "top: 25%; right: 30%; z-index: 2;", class: "opacity-100" %>
-      <%= image_tag "logos/JavaScript_logo.png", alt: "javascript logo", style: "bottom: 20%; left: 20%; z-index: 2;", class: "opacity-100" %>
-      <%= image_tag "logos/sql_icon.png", alt: "sql icon", style: "bottom: 30%; right:15%; z-index: 2;", class: "rounded-0 opacity-100" %>
-
-      <%= image_tag "logos/github_logo.png", alt: "github logo", style: "bottom: 20%; right: 25%;", class: "rounded-0 opacity-75" %>
-      <%= image_tag "logos/html_logo_circle.png", alt: "html logo", style: "bottom: 10%; left: 10%;", class: "opacity-75" %>
-      <%= image_tag "logos/css_logo_circle.png", alt: "css logo", style: "bottom: 15%; left: 30%;", class: "opacity-75" %>
-
-      <%= image_tag "logos/postgresql_plain.png", alt: "postgresql logo", style: "bottom: 25%; right: 5%;", class: "rounded-0 opacity-50" %>
-      <%= image_tag "logos/figma_logo.png", alt: "figma logo", style: "top: 10%; right: 25%;", class: "rounded-0 opacity-50" %>
-      <%= image_tag "logos/bs_with_title.png", alt: "bootstrap logo", style: "top: 20%; right: 10%;", class: "rounded-0 opacity-50" %>
+    <div id="banner-image" class="col-4 p-4">
+      <img src="images/close_up_center.png" alt="Ayano Fujita's image" class="rounded-25 w-100">
     </div>
   </div>
-  <p class="text-center" id="scroll-text" style="margin-top: -40px; margin-bottom: 0;">[scroll to explore]</p>
+  <!-- p class="text-center" id="scroll-text" style="margin-top: -40px; margin-bottom: 0;">[scroll to explore]<p-->
 </section>
