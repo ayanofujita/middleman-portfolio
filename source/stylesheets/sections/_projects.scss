@@ -1,8 +1,18 @@
-#projects {
-  > div {
+.project-container {
     // padding: 5em 0;
     height: 100vh;
-  }
+}
+
+.project-card {
+  padding: 5rem 2rem;
+}
+
+#project0 {
+  background: radial-gradient(circle at bottom right, #ded0e6, rgba(222, 208, 230, 0.5));
+}
+
+#project1 {
+  background: radial-gradient(circle at bottom right, #F3D5B8, rgba(243, 213, 184, 0.5));
 }
 
 @media (max-width: 768px) {
