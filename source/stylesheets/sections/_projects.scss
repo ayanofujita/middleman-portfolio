@@ -1,18 +1,31 @@
-.project-container {
-    // padding: 5em 0;
-    height: 100vh;
+// .project-container {
+//   // padding: 5em 0;
+//   height: 100vh;
+// }
+.project-card-wrapper {
+  position: sticky;
+  top: 2em;
 }
 
 .project-card {
   padding: 5rem 2rem;
+  transform-origin: center top;
+}
+
+.projects {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-rows: auto;
+  gap: 5rem 0;
 }
 
 #project0 {
-  background: radial-gradient(circle at bottom right, #ded0e6, rgba(222, 208, 230, 0.5));
+  background: radial-gradient(circle at bottom right, #ded0e6, rgb(226, 216, 231));
 }
 
 #project1 {
-  background: radial-gradient(circle at bottom right, #F3D5B8, rgba(243, 213, 184, 0.5));
+  background: radial-gradient(circle at bottom right, #F3D5B8, #f4dcc5);
 }
 
 @media (max-width: 768px) {
