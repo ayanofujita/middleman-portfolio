@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       trigger: ".projects-header",
       start: "top center",
       endTrigger: ".projects",
-      end: "center center",
+      end: "top top",
       scrub: true,
       pin: true
     }
