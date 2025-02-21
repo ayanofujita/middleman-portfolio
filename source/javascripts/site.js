@@ -56,4 +56,36 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // navlink listeners
+  const navLinks = document.querySelectorAll('#navbar a[href^="#"]');
+
+  navLinks.forEach(link => {
+    const sectionId = link.getAttribute('href');
+    if (!sectionId || sectionId === '#') return;
+
+    const section = document.querySelector(sectionId);
+    if (!section) return;
+
+    // Create scroll trigger
+    ScrollTrigger.create({
+      trigger: section,
+      start: 'top center',
+      end: 'bottom center',
+      onEnter: () => {
+        navLinks.forEach(l => l.classList.remove('nav-active'));
+        link.classList.add('nav-active');
+      },
+      onLeave: () => {
+        link.classList.remove('nav-active');
+      },
+      onEnterBack: () => {
+        navLinks.forEach(l => l.classList.remove('nav-active'));
+        link.classList.add('nav-active');
+      },
+      onLeaveBack: () => {
+        link.classList.remove('nav-active');
+      }
+    });
+  });
 });

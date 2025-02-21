@@ -1,7 +1,6 @@
 #navbar {
   position: fixed;
   top: 1em;
-  // font-size: small;
   width: 100%;
   z-index: 1;
 
@@ -13,6 +12,16 @@
 
   a {
     padding: .25em 1em;
+    color: #333;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: color 0.3s ease;
+    background: transparent;
+  }
+
+  a.nav-active {
+    color: white;
+    background: #333;
   }
 }
 
