@@ -11,7 +11,7 @@
 - name: Stroller City
   description: A mobile-first web application designed for new parents to navigate transit routes with ease, focusing on stroller-friendly exits and entrances equipped with elevators.
   image: projects/project1_sample.png
-  url: strollercity.org
+  url: https://www.youtube.com/watch?v=7so4KNiM9j0&t=5s
   github: https://github.com/PuvaSan/Stroller_City
   role: Lead Developer
   tech: HTML • CSS • Javascript (Stimulus) • PostgreSQL • Google Maps APIs • NAVITIME API • GitHub • Heroku • Cloudinary • Figma
