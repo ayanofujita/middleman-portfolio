@@ -8,28 +8,24 @@
     font-weight: 600;
   }
 
-  /*a {
-    // font-size: small;
-    margin-top: 2em;
-    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
-    transition: 0.5s;
-    background-size: 200% auto;
-
-    &:hover {
-      background-position: right center;
-    }
-  }*/
-
-  /*#banner-text {
-    padding-top: 40px;
-    z-index: 3;
-  }*/
   .gradient-text {
     background: radial-gradient(77% 206.25% at 20.8% 36.5%, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.51) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
+}
+
+.inner-banner {
+  max-width: 1200px;
+}
+
+.blob-container {
+  position: absolute;
+  width: 100vw;
+  height: 200vh;
+  z-index: -1;
+  overflow-x: hidden;
 }
 
 .blob {
