@@ -2,6 +2,10 @@
 //   // padding: 5em 0;
 //   height: 100vh;
 // }
+.project-description {
+  font-size: .8rem;
+}
+
 .project-card-wrapper {
   position: sticky;
   top: 2em;
@@ -26,6 +30,10 @@
 
 #project1 {
   background: radial-gradient(circle at bottom right, #F3D5B8, #f4dcc5);
+}
+
+#project2 {
+  background: radial-gradient(circle at bottom right, #B8D8F3, #C5E0F4);
 }
 
 @media (max-width: 768px) {

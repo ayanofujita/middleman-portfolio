@@ -18,6 +18,16 @@
   online: true
   color: '#FA6D30'
 
+- name: KanjiContext
+  description: A personalized app that helps users practice Japanese by translating their own text into the language, with customizable tone, furigana support, and vocabulary study features.
+  image: projects/project3_sample.png
+  url: http://japanese-learner-cathyayano.replit.app/
+  github: https://github.com/ayanofujita/JapaneseLearner
+  role: Solo Developer
+  tech: React (TypeScript) • Tailwind CSS • Shadcn UI • Vite • Express.js (Node.js) • PostgreSQL (Neon Database) • Drizzle ORM • Passport.js • Express Session • OpenAI API • Jisho API
+  online: true
+  color: '#022F46'
+
 # - name: Airbnb
 #   description: Decent description of the app
 #   image: projects/placeholder.png
